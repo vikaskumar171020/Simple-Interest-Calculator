@@ -13,15 +13,9 @@ function compute() {
 
 }
 
-//update ther Rate value
-function validateRate() {
-    var rate = document.getElementById("rate").value;
-    var biggerThanZero = parseInt(rate) > 0;
-    if (!biggerThanZero) {
-        alert("Enter a positive number");
-        document.getElementById("rate").focus();
-    }
-
+//update ther ate value
+function getSliderValue() {
+    document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value;
 }
 
 //Check for positive values
@@ -34,6 +28,3 @@ function validateAmount() {
     }
 
 }
-
-
-
