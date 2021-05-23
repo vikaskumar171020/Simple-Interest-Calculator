@@ -1,9 +1,14 @@
-  
-body
-{background-color:tan;}
-h1
-{
-  font-family: TimesNewRoman;
-  color:black;
-  size:20px;
+body {background-color:tan;}
+h1{color:black;
+font-family:TimesNewRoman;
+size: 18px
+}
+ 
+.maindiv{
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
 }
