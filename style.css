@@ -1,7 +1,11 @@
-body {background-color:tan;}
-h1{color:black;
-font-family:TimesNewRoman;
-size: 18px
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;
+    }
+h1{color:grey;
+font-family:verdana;
+size: 15px
 }
  
 .maindiv{
@@ -11,4 +15,5 @@ size: 18px
     padding: 20px;
     border-radius: 25px;
     margin: auto;
+    align:center;
 }
